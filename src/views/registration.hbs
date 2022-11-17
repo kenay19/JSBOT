@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="../css/registro.css">
+<div id="navbar">
+    <div id="imagen">
+        <img src="../img/Logo.jpg" />
+    </div>
+    <div>
+        <h1>Consultorio Libertad</h1>
+    </div>
+
+</div>
+<div id="main">
+    <div id="container">
+        <h2>Login</h2>
+        <form id="form">
+    <div>
+        <p>Nombre: <input type="text" name="nombre" id="nombre" required></p>
+    </div>
+    <div>
+        <p>Apellido Paterno: <input type="text" name="app" id="app" required></p>
+    </div>
+    <div>
+        <p>Apellido Materno: <input type="text" name="apm" id="apm" required></p>
+    </div>
+    <div>
+        <p>Genero: <select name="genero" id="genero" required>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+            </select>
+        </p>
+    </div>
+    <div>
+        <p>Edad: <input type="number" name="edad" id="edad" required></p>
+    </div>
+    <div>
+        <p>Telefono: <input type="tel" name="tel" id="tel" required></p>
+    </div>
+    <div>
+        <p>Correo: <input type="email" name="email" id="email" required></p>
+    </div>
+    <div>
+        <p>Contrasena <input type="password" name="password" id="password" required></p>
+    </div>
+    <button type="submit">Registrate</button>
+</form>
+<p>Ya tienes cuenta? <a href="/login">Inicia Sesion Aqui</a></p>
+    </div>
+</div>
+<script src="../js/comunications/registro.js"></script>

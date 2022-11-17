@@ -1,0 +1,65 @@
+body{
+    background-image: url('../img/medicos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main {
+    text-align: center;
+}
+
+#imagen {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#navbar {
+    background-color: rgb(0, 255, 229);
+    display: flex;
+    justify-content: center;
+}
+#container {
+    height: 350px;
+    margin: 100px  500px 00px;
+    padding: 50px 20px;
+    border: 1px solid;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-size: 45px;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+button {
+    background: rgb(0, 255, 0) ;
+    border-radius: 10px;
+    border: 0px;
+    width: 200px;
+}
