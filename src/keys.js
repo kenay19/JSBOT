@@ -1,8 +1,8 @@
 module.exports = {
     database: {
-        host: 'localhost',
-        user:'root',
-        password:'',
-        database: 'psiquiatria'
+        host: process.env.HOST ||'localhost',
+        user: process.env.USER ||'root',
+        password:process.env.PASSWORD || '',
+        database: process.env.NAME || 'psiquiatria'
     }
 }

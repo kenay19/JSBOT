@@ -13,13 +13,15 @@ CREATE TABLE users(
     contra varchar( 255) NOT NULL,
     PRIMARY KEY (idUser)
 )ENGINE=InnoDB;
-
+ 
 CREATE TABLE responses(
     cuestion varchar(255) NOT NULL,
-    response varchar(255   ) NOT NULL
+    response varchar(255) NOT NULL
 );
 
-INSERT INTO responses VALUES('como es posible','no lo se tu dime');
+INSERT INTO responses VALUES('Hola','¿Sientes que constantemente te falta tiempo para ti?'),('Si','Cada vez que tienes una situación en la que debes decidir, ¿sientes que lo piensas demasiado?'),
+('Si, muy seguido','Si no me contesta los mensajes de WhatsApp pienso que no le importo'),('Si','Si alguien comete un error siento mucha rabia'),
+('Si, soy mu exigente','Cuando tienes una idea de negocio, ¿prefieres ser optimista antes que planificar?'),('Si, así atraigo lo bueno','Ta bien, ta falta coito, aqui hay un link de los god pornhub.com');
 
 CREATE TABLE conversattion(
     mensaje varchar(255) NOT NULL,

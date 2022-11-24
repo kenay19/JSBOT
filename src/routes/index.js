@@ -2,11 +2,9 @@ const router = require('express').Router();
 const pool = require('../database');
 const encriptador = require('bcryptjs');
 const { check } = require('../lib/helper');
-
 router.get('/',check,(req, res) => {
     res.render('login');
 });
-
 router.post('/verification', async (req, res) => {
     const { email, password } = req.body;
     let response = {};
@@ -18,7 +16,6 @@ router.post('/verification', async (req, res) => {
         req.session.user = usuario[0];
         res.json({ success: "found user" });
     }
-
 });
 
 router.get('/outSession', (req,res) => {
